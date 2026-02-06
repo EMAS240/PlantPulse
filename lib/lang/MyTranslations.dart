@@ -1,0 +1,130 @@
+import 'package:get/get.dart';
+
+class MyTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en': {
+          'select_language': 'Select Language',
+          'welcome': 'Welcome',
+          'welcome_description':
+              'Easily identify plants, get tailored care tips,\n and keep your garden thriving — all in one app.\n Start growing smarter today!',
+          'next': 'Next',
+          'home': 'Home',
+          'upload_image': 'Upload Plant Image',
+          'upload_image_description':
+              'Upload a plant image and we’ll analyze it for you.',
+          'plant_report': 'Plant Report',
+          'download_pdf': 'Download Report as PDF',
+          'loading': 'Loading...',
+          'no_report': 'No report available at the moment.',
+          'contact_us': 'Contact Us',
+          // **مفاتيح جديدة مضافة**
+          'no_image_selected': 'No image selected',
+          'no_suggestions_found': 'No suggestions found for the plant.',
+          'error_code': 'Error code',
+          'exception': 'Exception occurred',
+          'write_report_for': 'Write a scientific report about the plant',
+          'environment_and_climate': 'Suitable environment and climate',
+          'preferred_soil_type': 'Preferred soil type',
+          'watering_and_fertilizing': 'Watering and fertilizing method',
+          'ideal_planting_time': 'Ideal planting time',
+          'general_care_tips': 'General care tips',
+          'medical_benefits': 'Medical benefits of the plant',
+          'report_in_formal_arabic': 'Write the report in clear formal Arabic.',
+          'report_word_limit': 'The report should not exceed 200 words.',
+          'error_gemini': 'Gemini error',
+          'exception_gemini': 'Gemini exception',
+          'failed_to_get_ip': 'Failed to get IP address',
+          'failed_to_get_location': 'Failed to get user location',
+          'vpn_warning_title': 'WARNING',
+          'vpn_warning_message':
+              'Your location is not supported.\nPlease turn on VPN and try again.',
+          'welcome_notification_description':
+              'Channel for welcome notifications',
+          'welcome_notification_body': 'We are glad to have you onboard!',
+          'welcome_channel_name': 'Welcome Notifications',
+        },
+        'ar': {
+          'select_language': 'اختر اللغة',
+          'welcome': 'أهلاً وسهلاً',
+          'welcome_description':
+              'تعرف بسهولة على النباتات، واحصل على نصائح رعاية مخصصة،\n وابقِ حديقتك مزدهرة — كل ذلك في تطبيق واحد.\n ابدأ الزراعة الذكية اليوم!',
+          'next': 'التالي',
+          'home': 'الرئيسية',
+          'upload_image': 'رفع صورة النبات',
+          'upload_image_description': 'قم برفع صورة للنبات وسنقوم بتحليلها لك.',
+          'plant_report': 'تقرير النبات',
+          'download_pdf': 'تحميل التقرير كملف PDF',
+          'loading': 'جارٍ التحميل...',
+          'no_report': 'لا يوجد تقرير متاح حالياً.',
+          'contact_us': 'اتصل بنا',
+          // **مفاتيح جديدة مضافة**
+          'no_image_selected': 'لم يتم اختيار صورة',
+          'no_suggestions_found': 'لم يتم العثور على اقتراحات للنبات.',
+          'error_code': 'رمز الخطأ',
+          'exception': 'حدث استثناء',
+          'write_report_for': 'اكتب تقريرًا علميًا عن النبات',
+          'environment_and_climate': 'البيئة والمناخ المناسب',
+          'preferred_soil_type': 'نوع التربة المفضل',
+          'watering_and_fertilizing': 'طريقة الري والتسميد',
+          'ideal_planting_time': 'وقت الزراعة المثالي',
+          'general_care_tips': 'نصائح عامة للعناية بالنبات',
+          'medical_benefits': 'الفوائد الطبية للنبات',
+          'report_in_formal_arabic':
+              'اكتب التقرير باللغة العربية الفصحى الواضحة.',
+          'report_word_limit': 'يجب ألا يتجاوز التقرير 200 كلمة.',
+          'error_gemini': 'خطأ في جيميناي',
+          'exception_gemini': 'استثناء في جيميناي',
+          'failed_to_get_ip': 'فشل في جلب عنوان IP',
+          'failed_to_get_location': 'فشل في جلب موقع المستخدم',
+          'vpn_warning_title': 'تحذير',
+          'vpn_warning_message':
+              'موقعك الجغرافي غير مدعوم.\nيرجى تشغيل VPN والمحاولة مرة أخرى.',
+          'welcome_notification_description': 'قناة إشعارات الترحيب',
+          'welcome_notification_body': 'نحن سعداء بانضمامك إلينا!',
+          'welcome_channel_name': 'إشعارات الترحيب',
+        },
+        'pt': {
+          'select_language': 'Selecionar idioma',
+          'welcome': 'Bem-vindo',
+          'welcome_description':
+              'Identifique plantas com facilidade, receba dicas de cuidados personalizadas\n e mantenha seu jardim saudável — tudo em um só aplicativo.\n Comece a cultivar com inteligência hoje!',
+          'next': 'Avançar',
+          'home': 'Início',
+          "upload_image": "Enviar imagem",
+          'upload_image_description':
+              'Envie uma imagem da planta e faremos a análise para você.',
+          'plant_report': 'Relatório da planta',
+          'download_pdf': 'Baixar relatório em PDF',
+          'loading': 'Carregando...',
+          'no_report': 'Nenhum relatório disponível no momento.',
+          'contact_us': 'Contato',
+          // **مفاتيح جديدة مضافة**
+          'no_image_selected': 'Nenhuma imagem selecionada',
+          'no_suggestions_found': 'Nenhuma sugestão encontrada para a planta.',
+          'error_code': 'Código de erro',
+          'exception': 'Exceção ocorrida',
+          'write_report_for': 'Escreva um relatório científico sobre a planta',
+          'environment_and_climate': 'Ambiente e clima adequados',
+          'preferred_soil_type': 'Tipo de solo preferido',
+          'watering_and_fertilizing': 'Método de rega e fertilização',
+          'ideal_planting_time': 'Tempo ideal para plantio',
+          'general_care_tips': 'Dicas gerais de cuidado',
+          'medical_benefits': 'Benefícios medicinais da planta',
+          'report_in_formal_arabic':
+              'Escreva o relatório em árabe formal claro.',
+          'report_word_limit': 'O relatório não deve exceder 200 palavras.',
+          'error_gemini': 'Erro Gemini',
+          'exception_gemini': 'Exceção Gemini',
+          'failed_to_get_ip': 'Falha ao obter o endereço IP',
+          'failed_to_get_location': 'Falha ao obter a localização do usuário',
+          'vpn_warning_title': 'AVISO',
+          'vpn_warning_message':
+              'Sua localização não é suportada.\nPor favor, ative o VPN e tente novamente.',
+          'welcome_notification_description':
+              'Canal para notificações de boas-vindas',
+          'welcome_notification_body': 'Estamos felizes por ter você conosco!',
+          'welcome_channel_name': 'Notificações de Boas-Vindas',
+        },
+      };
+}
